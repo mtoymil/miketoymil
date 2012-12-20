@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Cabin;
+    src: url(/media/fonts/cabin/Cabin-Regular.otf);
+}
+@font-face {
+    font-family: Bebas;
+    src: url(/media/fonts/bebas_neue/BebasNeue.otf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(/media/fonts/Lobster/Lobster_1.3.otf);
+}
+
+
+
+body {
+  background: url(/media/images/light_wool.png) 0 0 repeat;
+  color: #00AC6B;
+  font-family: Cabin;
+  font-size: 40px;
+}
+div {
+  margin-left: 20px;
+  margin-top: 20px
+}
