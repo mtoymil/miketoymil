@@ -10,13 +10,17 @@
     font-family: Lobster;
     src: url(/media/fonts/Lobster/Lobster_1.3.otf);
 }
-
-
-
+/*
+font-family: 'Ubuntu Mono', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Oxygen Mono', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
 body {
   background: url(/media/images/light_wool.png) 0 0 repeat;
+font-family: 'Josefin Sans', sans-serif;
   color: #00AC6B;
-  font-family: Cabin;
   font-size: 40px;
 }
 div {
