@@ -1,4 +1,119 @@
+@font-face {
+    font-family: Cabin;
+    src: url(/media/fonts/cabin/Cabin-Regular.otf);
+}
+
 /* Put your CSS here */
 html, body {
-    margin: 20px;
+  background: url(/media/images/bg.png) 0 0 repeat;
+  color: #C0CBE0;
+  font-family: Cabin;
+}
+
+a {
+  color: #C0CBE0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+hr.vertical {
+  height: 30px;
+  width: 1px;
+  border: none;
+  background: #C0CBE0
+}
+
+.freelance {
+  float: right;
+  color: #A6AD98;
+
+}
+
+.main {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.module {
+  color: #D3D7E0;
+  overflow: auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.module.index {
+  width: 380px;
+}
+
+.index .bracket {
+  font-size: 140px;
+}
+
+.left-cap {
+  float: left;
+}
+
+.right-cap {
+  float: right;
+}
+
+
+.index .contents {
+  padding-top: 15px;
+  padding-left: 35px;
+  text-align: left;
+  float:left;
+  width: 60%;
+}
+
+.contents .separator {
+  color: #C0CBE0;
+
+}
+
+.contents .key {
+  color: #AB8A9E;
+  font-weight: bold;
+
+}
+.contents .value {
+  float: right;
+}
+
+.header {
+  color: #A3AD8C;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  min-height: 20px;
+}
+
+.header a.active {
+  color: #A3AD8C;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  min-height: 20px;
+  /*background: #E0BDD2;*/
+  background: #161813;
+
 }
