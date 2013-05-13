@@ -97,6 +97,7 @@ hr.vertical {
 }
 
 .header {
+  margin: 10px;
   color: #A3AD8C;
   position: fixed;
   top: 0%;
