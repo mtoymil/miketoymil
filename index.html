@@ -24,12 +24,40 @@
       <div class="contents">
         <ul>
           {{#each model}}
+            {{#if url}}
             <li><a {{bindAttr href="url"}}><span class="key">{{key}}</span><span class="separator">:</span><span class="value">{{value}}</span></a></li>
+            {{/if}}
           {{/each}}
         </ul>
       </div>
       <div class="bracket right-cap">}</div>
     </div>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="projects">
+    <div class="title">
+      <span>projects</span>
+    </div>
+      <div class="contents">
+        <ul>
+          <li><a href="http://www.soundkeep.com"><span class="key">Soundkeep:</span> Open source music (node.js, backbone.js, webaudio)</a></li>
+          <li><a href="http://disasteroids.com"><span class="key">Disasteroids:</span> Gravity space shooter (node.js, backbone.js, canvas)</a></li>
+          <li><a href="http://www.eightbitbeats.com"><span class="key">Eight Bit Beats:</span> Realtime music collaboration (node.js, backbone.js)</a></li>
+        </ul>
+      </div>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="clients">
+    <div class="title">
+      <span>clients</span>
+    </div>
+      <div class="contents">
+        <ul>
+          <li><a href="http://www.commercekitchen.com"><span class="key">Commerce Kitchen:</span> backbone.js</a></li>
+          <li><a href="http://www.simpleenergy.com"><span class="key">Simple Energy:</span> ember.js, php</a></li>
+          <li><a href="http://www.sisumedia.com"><span class="key">Sisu Media:</span> backbone.js</a></li>
+        </ul>
+      </div>
   </script>
 
   <script src="js/libs/jquery-1.9.1.js"></script>

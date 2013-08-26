@@ -1,10 +1,8 @@
 App = Ember.Application.create();
 
 App.Router.map(function() {
-  this.resource("bio");
-  this.resource("skills");
   this.resource("projects");
-  this.resource("hobbies");
+  this.resource("clients");
 });
 
 App.IndexRoute = Ember.Route.extend({
@@ -21,9 +19,14 @@ App.IndexRoute = Ember.Route.extend({
         url: 'media/images/kitten.jpg'
       },
       {
-        key: 'editor',
-        value: 'vim',
-        url: 'http://en.wikipedia.org/wiki/Vim_(text_editor)'
+        key: 'clients',
+        value: '[...]',
+        url: '/#/clients'
+      },
+      {
+        key: 'projects',
+        value: '[...]',
+        url: '/#/projects'
       },
       {
         key: 'location',
@@ -31,13 +34,8 @@ App.IndexRoute = Ember.Route.extend({
         url: 'http://lmgtfy.com/?q=boulder%2C+co',
       },
       {
-        key: 'team',
-        value: 'something coded',
-        url: 'http://www.somethingcoded.net'
-      },
-      {
         key: 'freelancing',
-        value: 'available',
+        value: 'js, python/django',
         url: 'mailto:mike.toymil@gmail.com'
       }
     ];
